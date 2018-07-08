@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@id/connectionProgress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/connectionContent" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:id="@id/consoleScrollView" android:padding="@dimen/activity_horizontal_margin" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/consoleFooter">
+            <TextView android:textSize="16dp" android:textColor="@color/colorPrimaryDark" android:id="@id/consoleTextView" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="100" />
+        </ScrollView>
+        <RelativeLayout android:id="@id/consoleFooter" android:background="@color/arduinoBlue1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <EditText android:textSize="18dp" android:textColor="@color/white" android:textColorHint="@color/white" android:id="@id/consoleEditText" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/terminal_mode_edittexthint" android:maxLines="1" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

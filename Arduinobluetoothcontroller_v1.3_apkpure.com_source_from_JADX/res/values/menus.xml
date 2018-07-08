@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="controller">res/menu/controller.xml</menu>
+    <menu name="main">res/menu/main.xml</menu>
+    <menu name="switch_onoff">res/menu/switch_onoff.xml</menu>
+</resources>

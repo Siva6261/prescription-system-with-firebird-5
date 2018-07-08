@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@id/splash" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/arduino_logo" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="UNKNOWN_DATA_0x12c01" android:layout_margin="16dp" android:src="@drawable/ic_arduino_hc06" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/controller_logo" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x5001" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_margin="16dp" android:src="@drawable/ic_speaker_phone_black_48dp" android:layout_below="@id/arduino_logo" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tutorial" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v4.view.ViewPager android:id="@id/tutorialViewPager" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/viewPagerDots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <android.support.v7.widget.AppCompatButton android:id="@id/tutorialOkButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp" android:text="OK" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/Widget.AppCompat.Button.Borderless" />
+    </RelativeLayout>
+</RelativeLayout>

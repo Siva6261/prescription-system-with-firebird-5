@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:textColor="@color/black" android:id="@id/messageText" android:paddingLeft="24dp" android:paddingTop="24dp" android:paddingRight="24dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connection_mode_message" />
+        <RelativeLayout android:id="@id/controller" android:background="?attr/selectableItemBackground" android:paddingLeft="24dp" android:paddingTop="12dp" android:paddingRight="24dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/messageText">
+            <ImageView android:id="@id/controllerImage" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" android:src="@drawable/ic_videogame_asset_black_48dp" />
+            <TextView android:textSize="18sp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/controllerText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/connection_mode_controller" android:lines="1" android:layout_toRightOf="@id/controllerImage" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/switchOnOff" android:background="?attr/selectableItemBackground" android:paddingLeft="24dp" android:paddingTop="12dp" android:paddingRight="24dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/controller">
+            <ImageView android:id="@id/switchImage" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" android:src="@drawable/ic_power_settings_new_black_48dp" />
+            <TextView android:textSize="18sp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/switchText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/connection_mode_switch" android:lines="1" android:layout_toRightOf="@id/switchImage" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/dimmer" android:background="?attr/selectableItemBackground" android:paddingLeft="24dp" android:paddingTop="12dp" android:paddingRight="24dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/switchOnOff">
+            <ImageView android:id="@id/dimmerImage" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" android:src="@drawable/ic_tune_black_48dp" />
+            <TextView android:textSize="18sp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/dimmerText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/connection_mode_dimmer" android:lines="1" android:layout_toRightOf="@id/dimmerImage" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/terminal" android:background="?attr/selectableItemBackground" android:paddingLeft="24dp" android:paddingTop="12dp" android:paddingRight="24dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/dimmer">
+            <ImageView android:id="@id/terminalImage" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" android:src="@drawable/ic_keyboard_black_48dp" />
+            <TextView android:textSize="18sp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/terminalText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="@string/connection_mode_terminal" android:lines="1" android:layout_toRightOf="@id/terminalImage" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

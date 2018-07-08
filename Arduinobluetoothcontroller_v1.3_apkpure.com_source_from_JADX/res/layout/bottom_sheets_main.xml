@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:id="@id/bottom_sheet" app:clickable="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x11801" app:layout_behavior="@string/bottom_sheet_behavior">
+    <RelativeLayout app:id="@id/google_play_item" app:padding="16dp" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <ImageView app:id="@id/google_play_icon" app:layout_width="UNKNOWN_DATA_0x2001" app:layout_height="UNKNOWN_DATA_0x2001" app:src="@drawable/ic_googleplay" />
+        <TextView app:textSize="16dp" app:textColor="@color/black" app:id="@id/google_play_rate" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="8dp" app:text="@string/rateUs" app:layout_toRightOf="@id/google_play_icon" app:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View app:background="#dcdcdc" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginLeft="16dp" app:layout_marginRight="16dp" />
+    <RelativeLayout app:id="@id/share_item" app:padding="16dp" app:clickable="true" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <ImageView app:id="@id/share_icon" app:layout_width="UNKNOWN_DATA_0x2001" app:layout_height="UNKNOWN_DATA_0x2001" app:src="@drawable/ic_share_black_36dp" />
+        <TextView app:textSize="16dp" app:textColor="@color/black" app:id="@id/shareTextView" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="8dp" app:text="@string/share" app:layout_toRightOf="@id/share_icon" app:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View app:background="#dcdcdc" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginLeft="16dp" app:layout_marginRight="16dp" />
+    <LinearLayout app:orientation="vertical" app:padding="16dp" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <TextView app:textSize="16dp" app:textColor="@color/black" app:id="@id/build_version_title" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/appVersionTitle" />
+        <TextView app:textSize="14dp" app:textColor="@color/black" app:id="@id/build_version_subtitle" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="2dp" />
+    </LinearLayout>
+</LinearLayout>

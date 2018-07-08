@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:id="@id/bluetooth_scan" app:visible="false" app:title="@string/action_scan" app:showAsAction="UNKNOWN_DATA_0x0" />
+    <item app:icon="@drawable/ic_more_vert_white_24dp" app:id="@id/about" app:title="@string/action_about" app:showAsAction="always" />
+</menu>

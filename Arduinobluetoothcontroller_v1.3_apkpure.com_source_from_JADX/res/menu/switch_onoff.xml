@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res-auto">
+    <item app:icon="@drawable/ic_settings_white_24dp" app:id="@id/action_switch_mapping" app:title="@string/action_controller_mapping" app:showAsAction="always" />
+</menu>

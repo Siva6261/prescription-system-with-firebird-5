@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="?attr/selectableItemBackground" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="4dp" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/deviceIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp" android:src="@drawable/ic_devices_other_black_24dp" />
+    <TextView android:textSize="18dp" android:textColor="#000000" android:ellipsize="end" android:id="@id/availableDeviceTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="6dp" android:lines="1" android:layout_toRightOf="@id/deviceIcon" />
+    <TextView android:textSize="16dp" android:ellipsize="end" android:id="@id/availableDeviceSubtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="4dp" android:lines="1" android:layout_toRightOf="@id/deviceIcon" android:layout_below="@id/availableDeviceTitle" />
+</RelativeLayout>
